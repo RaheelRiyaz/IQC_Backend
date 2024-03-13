@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Iqra_Quran_Center.Domain/1.0.0": {
+        "runtime": {
+          "Iqra_Quran_Center.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Iqra_Quran_Center.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

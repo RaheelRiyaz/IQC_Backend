@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Iqra_Quran_Center.API.props" />
+</Project>

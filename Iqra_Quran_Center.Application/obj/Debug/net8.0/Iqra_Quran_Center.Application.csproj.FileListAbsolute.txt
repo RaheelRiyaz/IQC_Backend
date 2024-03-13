@@ -1,0 +1,15 @@
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\bin\Debug\net8.0\Iqra_Quran_Center.Application.deps.json
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\bin\Debug\net8.0\Iqra_Quran_Center.Application.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\bin\Debug\net8.0\Iqra_Quran_Center.Application.pdb
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.AssemblyInfoInputs.cache
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.AssemblyInfo.cs
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.csproj.CoreCompileInputs.cache
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\refint\Iqra_Quran_Center.Application.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.pdb
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\ref\Iqra_Quran_Center.Application.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\bin\Debug\net8.0\Iqra_Quran_Center.Domain.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\bin\Debug\net8.0\Iqra_Quran_Center.Domain.pdb
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.csproj.AssemblyReference.cache
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Application\obj\Debug\net8.0\Iqra_Quran_Center.Application.csproj.CopyComplete

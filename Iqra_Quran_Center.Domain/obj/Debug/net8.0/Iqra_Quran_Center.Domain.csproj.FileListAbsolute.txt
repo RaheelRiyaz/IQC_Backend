@@ -1,0 +1,11 @@
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\bin\Debug\net8.0\Iqra_Quran_Center.Domain.deps.json
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\bin\Debug\net8.0\Iqra_Quran_Center.Domain.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\bin\Debug\net8.0\Iqra_Quran_Center.Domain.pdb
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\Iqra_Quran_Center.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\Iqra_Quran_Center.Domain.AssemblyInfoInputs.cache
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\Iqra_Quran_Center.Domain.AssemblyInfo.cs
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\Iqra_Quran_Center.Domain.csproj.CoreCompileInputs.cache
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\Iqra_Quran_Center.Domain.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\refint\Iqra_Quran_Center.Domain.dll
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\Iqra_Quran_Center.Domain.pdb
+D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\obj\Debug\net8.0\ref\Iqra_Quran_Center.Domain.dll
