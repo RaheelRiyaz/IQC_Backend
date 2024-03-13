@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj": {}
+    "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj": {}
   },
   "projects": {
-    "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj": {
+    "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj",
+        "projectUniqueName": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj",
         "projectName": "Iqra_Quran_Center.Application",
-        "projectPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj",
+        "projectPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Application\\Iqra_Quran_Center.Application.csproj",
         "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
-        "outputPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Application\\obj\\",
+        "outputPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EliteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj": {
-                "projectPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj"
+              "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj": {
+                "projectPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj": {
+    "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj",
+        "projectUniqueName": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj",
         "projectName": "Iqra_Quran_Center.Domain",
-        "projectPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj",
+        "projectPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj",
         "packagesPath": "C:\\Users\\EliteBook\\.nuget\\packages\\",
-        "outputPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Domain\\obj\\",
+        "outputPath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EliteBook\\AppData\\Roaming\\NuGet\\NuGet.Config",

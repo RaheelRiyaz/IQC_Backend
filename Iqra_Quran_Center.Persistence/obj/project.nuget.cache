@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yi6RHykI8qPH0npfXPgcXjN+mEWOh6chDtqkghYkgX+EUE81VMR+FxZ8wdthC8duY5pVThKQPNH0YTLZPo7toQ==",
+  "dgSpecHash": "QjABpYhSaMRAh5B5vWxG4UT3gWmTeyFGugMehrJdS4SsluvF9JnVlHjQS86+RSUV/pXZnM4Ol/m19uspZ7r11Q==",
   "success": true,
-  "projectFilePath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Persistence\\Iqra_Quran_Center.Persistence.csproj",
+  "projectFilePath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Persistence\\Iqra_Quran_Center.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EliteBook\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\EliteBook\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

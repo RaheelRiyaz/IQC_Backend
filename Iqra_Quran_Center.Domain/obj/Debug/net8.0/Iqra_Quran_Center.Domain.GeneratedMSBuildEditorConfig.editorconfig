@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Iqra_Quran_Center.Domain
-build_property.ProjectDir = D:\localRepository\IQC_Backend\Iqra_Quran_Center\Iqra_Quran_Center.Domain\
+build_property.ProjectDir = D:\localRepository\IQC_Backend\Iqra_Quran_Center\IQC_Backend\Iqra_Quran_Center.Domain\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

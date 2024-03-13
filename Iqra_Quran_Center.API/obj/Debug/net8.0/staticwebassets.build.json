@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ChUBX3jtJecniRW32cOiqshf6MmDXoBTi174H164tRI=",
+  "Hash": "4RzjBrGL1730v+QmldvtGMOU2qr9fJoXnpfLrTfiwYE=",
   "Source": "Iqra_Quran_Center.API",
   "BasePath": "_content/Iqra_Quran_Center.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Iqra_Quran_Center.API\\wwwroot",
       "Source": "Iqra_Quran_Center.API",
-      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\",
+      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\",
       "BasePath": "_content/Iqra_Quran_Center.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\Files\\9d6d3d15-f06c-4cc8-a38a-e59ad5c94becInterview-Questions.pdf",
+      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\Files\\9d6d3d15-f06c-4cc8-a38a-e59ad5c94becInterview-Questions.pdf",
       "SourceId": "Iqra_Quran_Center.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\",
+      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\",
       "BasePath": "_content/Iqra_Quran_Center.API",
       "RelativePath": "Files/9d6d3d15-f06c-4cc8-a38a-e59ad5c94becInterview-Questions.pdf",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\9d6d3d15-f06c-4cc8-a38a-e59ad5c94becInterview-Questions.pdf"
     },
     {
-      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\Files\\aa4609de-1fe7-4411-9ae1-cbbcd9c0729fInterview-Questions.pdf",
+      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\Files\\aa4609de-1fe7-4411-9ae1-cbbcd9c0729fInterview-Questions.pdf",
       "SourceId": "Iqra_Quran_Center.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\",
+      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\",
       "BasePath": "_content/Iqra_Quran_Center.API",
       "RelativePath": "Files/aa4609de-1fe7-4411-9ae1-cbbcd9c0729fInterview-Questions.pdf",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\aa4609de-1fe7-4411-9ae1-cbbcd9c0729fInterview-Questions.pdf"
     },
     {
-      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\Files\\b75dc6ea-4dc8-41a9-bedb-dd8df60203cbInterview-Questions.pdf",
+      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\Files\\b75dc6ea-4dc8-41a9-bedb-dd8df60203cbInterview-Questions.pdf",
       "SourceId": "Iqra_Quran_Center.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\",
+      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\",
       "BasePath": "_content/Iqra_Quran_Center.API",
       "RelativePath": "Files/b75dc6ea-4dc8-41a9-bedb-dd8df60203cbInterview-Questions.pdf",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\b75dc6ea-4dc8-41a9-bedb-dd8df60203cbInterview-Questions.pdf"
     },
     {
-      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\Files\\e1d9b79e-53fa-44c7-83a5-5030868e3905Interview-Questions.pdf",
+      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\Files\\e1d9b79e-53fa-44c7-83a5-5030868e3905Interview-Questions.pdf",
       "SourceId": "Iqra_Quran_Center.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\",
+      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\",
       "BasePath": "_content/Iqra_Quran_Center.API",
       "RelativePath": "Files/e1d9b79e-53fa-44c7-83a5-5030868e3905Interview-Questions.pdf",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Files\\e1d9b79e-53fa-44c7-83a5-5030868e3905Interview-Questions.pdf"
     },
     {
-      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\Files\\fdd3f393-5efd-48f8-8882-2e11258bc005Interview-Questions.pdf",
+      "Identity": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\Files\\fdd3f393-5efd-48f8-8882-2e11258bc005Interview-Questions.pdf",
       "SourceId": "Iqra_Quran_Center.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\wwwroot\\",
+      "ContentRoot": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\wwwroot\\",
       "BasePath": "_content/Iqra_Quran_Center.API",
       "RelativePath": "Files/fdd3f393-5efd-48f8-8882-2e11258bc005Interview-Questions.pdf",
       "AssetKind": "All",

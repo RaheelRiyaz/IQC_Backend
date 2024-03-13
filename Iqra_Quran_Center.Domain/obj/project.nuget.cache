@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iwrPvA0vUCnKx3giTq5jRHmHnCQmy3p12FDIH57/Xp64wsLIllrjRb5MDL/M1gCWP+wuM7OwP84qoN1js+pyGQ==",
+  "dgSpecHash": "EDqGz2KOkDyrqcdAu3fONaOwplhnbvIbSxiFZH9fbCHtSa1w4vj9imgUGpbW/7BWx2CK9tMhDUMRe3oaE1JnxA==",
   "success": true,
-  "projectFilePath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj",
+  "projectFilePath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.Domain\\Iqra_Quran_Center.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

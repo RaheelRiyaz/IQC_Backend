@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aAYoH+J5d4ASUIf9g0WAtLWv2FLqWu1vPG6CqRXKFiaSHY7bMlbG4+NaOzvWE5ba9vl3KOzOsnTRCYJp91dlJw==",
+  "dgSpecHash": "oAwJG/cExqsgymIZbwBBxN89YPFCzVTP8wqa5MtxF8tIamXBGX64rTS/+m/c+aJPgc9BSjGHfYa1kp6pVWWWrA==",
   "success": true,
-  "projectFilePath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\Iqra_Quran_Center.API\\Iqra_Quran_Center.API.csproj",
+  "projectFilePath": "D:\\localRepository\\IQC_Backend\\Iqra_Quran_Center\\IQC_Backend\\Iqra_Quran_Center.API\\Iqra_Quran_Center.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\EliteBook\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\EliteBook\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
