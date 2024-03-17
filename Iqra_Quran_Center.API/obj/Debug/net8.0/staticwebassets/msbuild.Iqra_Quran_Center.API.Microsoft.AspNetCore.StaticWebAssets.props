@@ -1,5 +1,21 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\7dc1c32d-ea5d-4d79-9ece-c52ee45db277angular.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Iqra_Quran_Center.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Iqra_Quran_Center.API</BasePath>
+      <RelativePath>Files/7dc1c32d-ea5d-4d79-9ece-c52ee45db277angular.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\7dc1c32d-ea5d-4d79-9ece-c52ee45db277angular.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\9d6d3d15-f06c-4cc8-a38a-e59ad5c94becInterview-Questions.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Iqra_Quran_Center.API</SourceId>
@@ -32,22 +48,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\aa4609de-1fe7-4411-9ae1-cbbcd9c0729fInterview-Questions.pdf))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\b75dc6ea-4dc8-41a9-bedb-dd8df60203cbInterview-Questions.pdf))">
-      <SourceType>Package</SourceType>
-      <SourceId>Iqra_Quran_Center.API</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Iqra_Quran_Center.API</BasePath>
-      <RelativePath>Files/b75dc6ea-4dc8-41a9-bedb-dd8df60203cbInterview-Questions.pdf</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\b75dc6ea-4dc8-41a9-bedb-dd8df60203cbInterview-Questions.pdf))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\e1d9b79e-53fa-44c7-83a5-5030868e3905Interview-Questions.pdf))">
       <SourceType>Package</SourceType>
       <SourceId>Iqra_Quran_Center.API</SourceId>
@@ -63,6 +63,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\e1d9b79e-53fa-44c7-83a5-5030868e3905Interview-Questions.pdf))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\f2fe4291-4ead-4a93-97eb-59d9d2d350f2angular.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Iqra_Quran_Center.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Iqra_Quran_Center.API</BasePath>
+      <RelativePath>Files/f2fe4291-4ead-4a93-97eb-59d9d2d350f2angular.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\f2fe4291-4ead-4a93-97eb-59d9d2d350f2angular.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Files\fdd3f393-5efd-48f8-8882-2e11258bc005Interview-Questions.pdf))">
       <SourceType>Package</SourceType>

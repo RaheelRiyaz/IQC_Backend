@@ -11,6 +11,7 @@ namespace Iqra_Quran_Center.Application.Abstractions.IServices
     public interface INotificationsService
     {
         Task<APIResponse<int>> AddNotifiction(NotificationRequest model);
+        Task<APIResponse<int>> RemoveNotifiction(Guid id);
         Task<APIResponse<IEnumerable<NotificationResponse>>> ViewNotifications(FilterNotificationsRequest model);
     }
 }

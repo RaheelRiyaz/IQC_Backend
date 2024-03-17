@@ -33,6 +33,8 @@ namespace Iqra_Quran_Center.Persistence.DI_Container
             services.AddScoped<IAppFilesRepository, AppFilesRepository>();
             services.AddScoped<INotificationsRepository, NotificationsRepository>();
             services.AddScoped<IResultsRepository, ResultsRepository>();
+            services.AddScoped<IStudentFeesHistoryRepository, StudentFeesHistory>();
+            services.AddScoped<IGroupFeesRepository, GroupFeesRepository>();
             return services;
         }
     }

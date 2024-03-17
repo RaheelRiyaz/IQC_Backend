@@ -1,4 +1,5 @@
 ﻿using Iqra_Quran_Center.Domain.Enums;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,4 +13,6 @@ namespace Iqra_Quran_Center.Application.RRModels
     public record LoginRequest(string Email, string Password);
     public record LoginResponse(string Token);
     public record AssignGroupRequst (Guid StudentId,Guid GroupId);
+    public record ChangePasswordRequest (string OldPassword,string NewPassword);
+    public record ProfileRequest(IFormFile File);
 }

@@ -11,12 +11,21 @@ namespace Iqra_Quran_Center.API.Controllers
     [ApiController]
     public class NotificationsController (INotificationsService service): ControllerBase
     {
+
         [HttpPost]
         public async Task<APIResponse<int>> AddNotification([FromForm] NotificationRequest model) =>
             await service.AddNotifiction(model);
 
+
+
         [HttpPost("view-notifications")]
         public async Task<APIResponse<IEnumerable<NotificationResponse>>> ViewNotifications(FilterNotificationsRequest model) =>
             await service.ViewNotifications(model);
+
+
+
+        [HttpDelete("{id:guid}")]
+        public async Task<APIResponse<int>> RemoveNotifiction(Guid id) =>
+            await service.RemoveNotifiction(id);
     }
 }

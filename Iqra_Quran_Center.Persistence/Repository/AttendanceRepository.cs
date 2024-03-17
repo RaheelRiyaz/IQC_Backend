@@ -3,11 +3,7 @@ using Iqra_Quran_Center.Application.RRModels;
 using Iqra_Quran_Center.Domain.Models;
 using Iqra_Quran_Center.Persistence.Dapper;
 using Iqra_Quran_Center.Persistence.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Iqra_Quran_Center.Persistence.Repository
 {
@@ -41,7 +37,7 @@ namespace Iqra_Quran_Center.Persistence.Repository
                 query.Append(" AND Date = @date");
             }
 
-            object dateParameter = (model.Date is null) ? null : Convert.ToDateTime(model.Date);
+            DateTime? dateParameter = Convert.ToDateTime(model.Date);
 
             return await dbContext.QueryAsync<AttendanceResponse>(query.ToString(), new { model.ClassId, Date = dateParameter});
         }

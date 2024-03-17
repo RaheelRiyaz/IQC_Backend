@@ -12,7 +12,13 @@ using System.Threading.Tasks;
 
 namespace Iqra_Quran_Center.Application.Services
 {
-    public class NotificationsService (INotificationsRepository repository,IFileService service) : INotificationsService
+    public class NotificationsService 
+        (
+        INotificationsRepository repository,
+        IFileService service,
+        IAppFilesRepository appFilesRepository,
+        IFileService fileService
+        ) : INotificationsService
     {
         public async Task<APIResponse<int>> AddNotifiction(NotificationRequest model)
         {
@@ -41,6 +47,25 @@ namespace Iqra_Quran_Center.Application.Services
 
             if (res > 0)
                 return APIResponse<int>.SuccessResponse(res, "Notification has been added successfully");
+
+            return APIResponse<int>.ErrorResponse();
+        }
+
+        public async Task<APIResponse<int>> RemoveNotifiction(Guid id)
+        {
+            var file = await appFilesRepository.FirstOrDefaultAsync(_=>_.EntityId == id);
+
+            if(file is not null)
+            {
+                var result = await fileService.DeleteFileAsync(file);
+                if (result == 0)
+                    return APIResponse<int>.ErrorResponse("Something went wrong");
+            }
+
+            var res = await repository.DeleteAsync(id);
+
+            if (res > 0)
+                return APIResponse<int>.SuccessResponse(res, "Notification deleted successfully");
 
             return APIResponse<int>.ErrorResponse();
         }

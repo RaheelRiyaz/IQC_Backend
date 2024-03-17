@@ -25,6 +25,9 @@ namespace Iqra_Quran_Center.Application.DI_Container
             services.AddScoped<IAnswersService, AnswersService>();
             services.AddScoped<IFileService, FileService>();
             services.AddScoped<INotificationsService, NotificationsService>();
+            services.AddScoped<IResultsService, ResultsService>();
+            services.AddScoped<IGroupFeesService, GroupFeesService>();
+            services.AddScoped<IStudentFeesService, StudentFeesService>();
             services.AddSingleton<IStorageService>(new StorageService(webrootPath));
             return services;
         }

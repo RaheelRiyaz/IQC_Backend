@@ -33,6 +33,14 @@ namespace Iqra_Quran_Center.Domain.Enums
 
     public enum Module : byte
     {
-        Notification = 1
+        Notification = 1,
+        Profile = 2
     }
+
+
+    public enum PaymentMethod : byte
+    {
+        Cash = 1,
+        Online = 2
+    } 
 }

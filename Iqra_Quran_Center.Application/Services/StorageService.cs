@@ -12,7 +12,7 @@ namespace Iqra_Quran_Center.Application.Services
     {
         public Task<string> DeleteFileAsync(string filePath)
         {
-            var fullPath = Path.Combine(webRootPath, filePath);
+            var fullPath = String.Concat(webRootPath, filePath);
 
             File.Delete(fullPath); 
 

@@ -2,6 +2,7 @@
 using Iqra_Quran_Center.Application.BaseResponse;
 using Iqra_Quran_Center.Application.RRModels;
 using Iqra_Quran_Center.Domain.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -32,5 +33,17 @@ namespace Iqra_Quran_Center.API.Controllers
         [HttpPost("login")]
         public async Task<APIResponse<LoginResponse>> Login(LoginRequest model) =>
             await service.Login(model);
+
+
+        [Authorize]
+        [HttpPut("change-password")]
+        public async Task<APIResponse<int>> ChangePassword(ChangePasswordRequest model) =>
+            await service.ChangePassword(model);
+
+
+        [Authorize]
+        [HttpPost("upload-profile")]
+        public async Task<APIResponse<int>> UploadProfile([FromForm] ProfileRequest model) =>
+            await service.UploadProfile(model);
     }
 }

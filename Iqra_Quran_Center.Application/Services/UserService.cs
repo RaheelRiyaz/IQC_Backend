@@ -14,8 +14,35 @@ using System.Threading.Tasks;
 
 namespace Iqra_Quran_Center.Application.Services
 {
-    public class UserService(IUserRespository respository,IMapper mapper,ITokenService tokenService) : IUserService
+    public class UserService
+        (
+        IUserRespository respository,
+        IMapper mapper,
+        ITokenService tokenService,
+        IContextService contextService,
+        IAppFilesRepository appFilesRepository,
+        IFileService fileService
+        ) : IUserService
     {
+        public async Task<APIResponse<int>> ChangePassword(ChangePasswordRequest model)
+        {
+            var user = await respository.GetByIdAsync(contextService.GetId());
+            if (user is null)
+                return APIResponse<int>.ErrorResponse("Invalid Credentials");
+
+            if (!AppEncryption.ComparePassword(model.OldPassword, user.Salt, user.Password))
+                return APIResponse<int>.ErrorResponse("Invalid Credentials");
+
+            user.Password = AppEncryption.GenerateHashedPassword(user.Salt, model.NewPassword);
+
+            var res = await respository.UpdateAsync(user);
+
+            if (res > 0)
+                return APIResponse<int>.SuccessResponse(res, "Password has ben Changed Successfully");
+
+            return APIResponse<int>.ErrorResponse();
+        }
+
         public async Task<APIResponse<IEnumerable<User>>> Faculty()
         {
             var faculty = await respository.FilterAsync(_ => _.UserRole == UserRole.Teacher);
@@ -53,7 +80,7 @@ namespace Iqra_Quran_Center.Application.Services
                 Name = model.Name
             };
 
-            student.Password = AppEncryption.GenerateHashedPassword(student.Salt,model.Password);
+            student.Password = AppEncryption.GenerateHashedPassword(student.Salt, model.Password);
 
             var res = await respository.AddAsync(student);
 
@@ -62,6 +89,31 @@ namespace Iqra_Quran_Center.Application.Services
 
             return APIResponse<int>.ErrorResponse();
         }
+
+
+
+        public async Task<APIResponse<int>> UploadProfile(ProfileRequest model)
+        {
+            var appFile = await appFilesRepository.FirstOrDefaultAsync(_ => _.EntityId == contextService.GetId());
+
+            if (appFile is not null)
+            {
+                var res = await fileService.DeleteFileAsync(appFile);
+                if (res == 0)
+                    return APIResponse<int>.ErrorResponse("Something went wrong");
+            }
+
+            var file = new AppFileRequest(contextService.GetId(),model.File, Module.Profile);
+
+            var result = await fileService.InsertFileAsync(file);
+
+            if (!String.IsNullOrEmpty(result))
+                return APIResponse<int>.SuccessResponse(1, "File Uploaded Successfully");
+
+            return APIResponse<int>.ErrorResponse();
+        }
+
+
 
         public async Task<APIResponse<User>> UserSignup(UserRequest model)
         {
@@ -79,7 +131,10 @@ namespace Iqra_Quran_Center.Application.Services
             var res = await respository.AddAsync(user);
 
             if (res > 0)
-                return APIResponse<User>.SuccessResponse(user, $@"{(user.UserRole == UserRole.Admin ? nameof(UserRole.Admin) : user.UserRole == UserRole.Teacher ? nameof(UserRole.Teacher) : string.Empty)} Created Successfully");
+                return APIResponse<User>.SuccessResponse
+                    (user, $@"{(user.UserRole == UserRole.Admin ?
+                    nameof(UserRole.Admin) : user.UserRole == UserRole.Teacher ?
+                    nameof(UserRole.Teacher) : string.Empty)} Created Successfully");
 
             return APIResponse<User>.ErrorResponse();
         }

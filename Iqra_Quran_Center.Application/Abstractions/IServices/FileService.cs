@@ -11,6 +11,17 @@ namespace Iqra_Quran_Center.Application.Abstractions.IServices
 {
     public class FileService(IStorageService service, IAppFilesRepository repository) : IFileService
     {
+        public async Task<int> DeleteFileAsync(AppFile model)
+        {
+            var res = await repository.DeleteAsync(model);
+
+            if(res == 0)
+                return 0;
+
+            await service.DeleteFileAsync(model.FilePath); 
+            return 1;
+        }
+
         public async Task<string> InsertFileAsync(AppFileRequest model)
         {
             var filePath = await service.SaveFileAsync(model.File);

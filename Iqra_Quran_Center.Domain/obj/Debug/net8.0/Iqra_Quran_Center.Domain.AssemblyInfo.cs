@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Iqra_Quran_Center.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9fa2834745e0fcb77e73e3c1ec7cee6f7e1fe89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69c53a1be41ee4f694a6371f76c3cb6d308c33ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Iqra_Quran_Center.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Iqra_Quran_Center.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

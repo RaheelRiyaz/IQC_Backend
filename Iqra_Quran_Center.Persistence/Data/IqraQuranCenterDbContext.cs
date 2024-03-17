@@ -27,6 +27,8 @@ namespace Iqra_Quran_Center.Persistence.Data
         public DbSet<Notification> Notifications { get; set; } = null!;
         public DbSet<AppFile> Files { get; set; } = null!;
         public DbSet<Result> Results { get; set; } = null!;
+        public DbSet<GroupFees> GroupFees { get; set; } = null!;
+        public DbSet<StudentFeeHistory> StudentFeeHistory { get; set; } = null!;
         #endregion Database Tables
 
     }

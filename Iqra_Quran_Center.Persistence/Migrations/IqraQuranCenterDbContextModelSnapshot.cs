@@ -229,6 +229,31 @@ namespace Iqra_Quran_Center.Persistence.Migrations
                     b.ToTable("GroupClassSchedules");
                 });
 
+            modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.GroupFees", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("GroupId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<double>("TotalFee")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GroupId");
+
+                    b.ToTable("GroupFees");
+                });
+
             modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.Notification", b =>
                 {
                     b.Property<Guid>("Id")
@@ -316,6 +341,37 @@ namespace Iqra_Quran_Center.Persistence.Migrations
                     b.HasIndex("StudentId");
 
                     b.ToTable("Results");
+                });
+
+            modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.StudentFeeHistory", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("CreatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateOnly>("Date")
+                        .HasColumnType("date");
+
+                    b.Property<byte>("PaymentMethod")
+                        .HasColumnType("tinyint");
+
+                    b.Property<Guid>("StudentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<double>("TotalFeeSubmitted")
+                        .HasColumnType("float");
+
+                    b.Property<DateTime>("UpdatedOn")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("StudentId");
+
+                    b.ToTable("StudentFeeHistory");
                 });
 
             modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.Subject", b =>
@@ -465,6 +521,17 @@ namespace Iqra_Quran_Center.Persistence.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.GroupFees", b =>
+                {
+                    b.HasOne("Iqra_Quran_Center.Domain.Models.Group", "Group")
+                        .WithMany()
+                        .HasForeignKey("GroupId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Group");
+                });
+
             modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.QuestionPaper", b =>
                 {
                     b.HasOne("Iqra_Quran_Center.Domain.Models.Exam", "Exam")
@@ -493,6 +560,17 @@ namespace Iqra_Quran_Center.Persistence.Migrations
                     b.Navigation("Exam");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.StudentFeeHistory", b =>
+                {
+                    b.HasOne("Iqra_Quran_Center.Domain.Models.User", "Student")
+                        .WithMany()
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Student");
                 });
 
             modelBuilder.Entity("Iqra_Quran_Center.Domain.Models.User", b =>

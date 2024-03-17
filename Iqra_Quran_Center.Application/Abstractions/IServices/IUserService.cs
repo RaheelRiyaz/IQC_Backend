@@ -15,5 +15,7 @@ namespace Iqra_Quran_Center.Application.Abstractions.IServices
         Task<APIResponse<int>> StudentSignup(StudentSignupRequest model);
         Task<APIResponse<IEnumerable<User>>> Faculty();
         Task<APIResponse<LoginResponse>> Login(LoginRequest model);
+        Task<APIResponse<int>> ChangePassword(ChangePasswordRequest model);
+        Task<APIResponse<int>> UploadProfile(ProfileRequest model);
     }
 }
